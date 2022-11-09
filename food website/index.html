@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>food website</title>
+</head>
+
+<body class="position-relative" data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="87.13">
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start navbar section -->
+  <nav id="nav" class="navbar fixed-top shadow-sm py-2 w-100 navbar navbar-expand-lg navbar-light ">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a id="logo" class="navbar-brand w-25 fs-3" href="#first-sec">
+        <img src="/images/Knife and fork free icon 2.svg" alt="">
+        Resto.
+      </a>
+      <button id="navbar-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav position-relative mb-2 mb-lg-0 mx-auto">
+          <span class="overlay rounded-1"></span>
+          <li class="nav-item text-center me-1">
+            <a href="#home" class="active nav-link rounded-1 px-2">Home</a>
+          </li>
+          <li class="nav-item text-center me-1">
+            <a href="#dishes" class="nav-link rounded-1 px-2">Dishes</a>
+          </li>
+          <li class="nav-item text-center me-1">
+            <a href="#about" class="nav-link rounded-1 px-2">About</a>
+          </li>
+          <li class="nav-item text-center me-1">
+            <a href="#menu" class="nav-link rounded-1 px-2">Menu</a>
+          </li>
+          <li class="nav-item text-center me-1">
+            <a href="#review" class="nav-link rounded-1 px-2">Review</a>
+          </li>
+          <li class="nav-item text-center me-1">
+            <a href="#order" class="nav-link rounded-1 px-2">Order</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="d-flex flex-wrap m-0">
+        <li class="me-3 d-flex justify-content-center align-items-center rounded-circle">
+          <i class="bi bi-search"></i>
+        </li>
+        <li class="me-3 d-flex justify-content-center align-items-center rounded-circle">
+          <i class="bi bi-heart-fill"></i>
+        </li>
+        <li class="me-3 d-flex justify-content-center align-items-center rounded-circle">
+          <i class="bi bi-cart3"></i>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start home section -->
+  <section id="home" class="section-py d-flex align-items-center">
+    <div class="container-fluid mt-5">
+      <div id="carouselExampleIndicators" class="carousel slide d-flex flex-wrap align-items-center"
+        data-bs-ride="carousel">
+        <div class="carousel-indicators m-0">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active">
+            <div class="row cols-12 align-items-center w-100">
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-column align-items-center">
+                <span class="fs-3 mb-3">Our Special Dish</span>
+                <div class="display-2 main-header mb-3 text-center">Spicy Noodles</div>
+                <p class=" fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn btn-style py-2 px-4 d-block mb-3">Order Now</button>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-wrap">
+                <img class="d-block m-auto" src="/images/home-img-1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="col2" class="row cols-12 align-items-center w-100">
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-column align-items-center ">
+                <span class="fs-3 mb-3">Our Special Dish</span>
+                <div class="display-2 main-header mb-3 text-center">fried checken</div>
+                <p class=" fs-4 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn btn-style py-2 px-4 d-block mb-3">Order Now</button>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-wrap">
+                <img class="d-block m-auto" src="/images/home-img-2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row cols-12 align-items-center w-100">
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-column align-items-center">
+                <span class="fs-3 mb-3">Our Special Dish</span>
+                <div class="display-2 main-header mb-3 text-center">hot pizza</div>
+                <p class=" fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn btn-style py-2 px-4 d-block mb-3">Order Now</button>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-wrap">
+                <img class="d-block m-auto" src="/images/home-img-3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end home section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start dishes section -->
+  <section id="dishes" class="section-py">
+    <div class="container">
+      <span class="fs-5 mb-3 mx-auto d-block text-center">Our Dishes</span>
+      <h2 class="main-header mb-3 mx-auto text-center">POPULAR DISHES</h2>
+      <div class="row col-sm-12 m-0 px-3 px-sm-0">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1 ">
+          <div class="card align-items-center w-100 shadow-lg py-4 px-5h-100">
+            <div>
+              <img class="d-block " src="/images/dish-1.png" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Tasty Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$15.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1 ">
+          <div class="card align-items-center w-100 shadow-lg py-4 px-5 h-100">
+            <div>
+              <img class="d-block " src="/images/dish-2.png" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Tasty Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$15.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1 ">
+          <div class="card align-items-center w-100 shadow-lg py-4 px-5 h-100">
+            <div>
+              <img class="d-block " src="/images/dish-3.png" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Tasty Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$15.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1 ">
+          <div class="card align-items-center w-100 shadow-lg py-4 px-5 h-100">
+            <div>
+              <img class="d-block " src="/images/dish-4.png" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Tasty Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$15.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1 ">
+          <div class="card align-items-center w-100 shadow-lg py-4 px-5 h-100">
+            <div>
+              <img class="d-block " src="/images/dish-5.png" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Tasty Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$15.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1 ">
+          <div class="card align-items-center w-100 shadow-lg py-4 px-5 h-100">
+            <div>
+              <img class="d-block " src="/images/dish-6.png" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Tasty Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$15.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end dishes section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start about section -->
+  <section id="about" class="section-py">
+    <div class="container">
+      <span class="fs-5 mb-3 mx-auto d-block text-center">About Us</span>
+      <h2 class="main-header mb-5 mx-auto text-center">WHY CHOOSE US?</h2>
+      <div class="row cols-12">
+        <div class="col-12 d-flex justify-content-center">
+          <img class="h-100" src="/images/about-img.png" alt="">
+        </div>
+        <div class="col-12 ">
+          <div class="display-6 main-header">Best Food In The Country</div>
+          <p class=" fs-6 fs-sm-5">
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat Voluptatem
+            Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio Corporis Nihil!
+          </p>
+          <p class="fs-6 fs-sm-5">
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Aperiam, Nemo. Sit Porro Illo Eos Cumque Deleniti
+            Iste Alias, Eum Natus.
+          </p>
+          <div class="row cols-12 flex-wrap">
+            <div class=" p-2 col-12 col-sm-4">
+              <button class="btn shadow-sm border-1 py-2 text-center w-100">
+                free delivery
+              </button>
+            </div>
+            <div class=" p-2 col-12 col-sm-4">
+              <button class="btn shadow-sm border-1 py-2 text-center w-100">
+                easy payments
+              </button>
+            </div>
+            <div class=" p-2 col-12 col-sm-4">
+              <button class="btn shadow-sm border-1 py-2 text-center w-100">
+                24/7 service
+              </button>
+            </div>
+            <div class=" p-2 col-12 col-sm-4">
+              <button class="btn btn-style py-2 px-4 d-block">learn more</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start menu section -->
+  <section id="menu" class="section-py">
+    <div class="container">
+      <span class="fs-5 mb-3 mx-auto d-block text-center">Customer's Review</span>
+      <h2 class="main-header mb-5 mx-auto text-center">WHAT THEY SAY</h2>
+
+      <div class="row col-sm-12 m-0 px-3 px-sm-0">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-1.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-2.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-3.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-4.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-5.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-6.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-7.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-8.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-wrap flex-column align-items-center p-1">
+          <div class="card align-items-start w-100 shadow-lg py-4 px-3">
+            <div>
+              <img class="d-block" src="/images/menu-9.jpg" alt="sorry we didnot find it">
+            </div>
+            <h3 class="main-header mt-1">Delicious Food</h3>
+            <span class="mt-1 fs-2 fw-bold tex">$12.99</span>
+            <button class="btn btn-style py-2 px-4 mt-3">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end menu section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start review section -->
+  <section id="review" class="section-py">
+    <div class="container">
+      <span class="fs-5 mb-3 mx-auto d-block text-center">Our Menu</span>
+      <h2 class="main-header mb-5 mx-auto text-center">TODAY'S SPECIALITY</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide d-flex flex-wrap align-items-center"
+        data-bs-ride="carousel">
+        <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center row-cols-12 justify-content-center align-items-center">
+            <div class="card shadow-sm p-3">
+              <div class="d-flex flex-wrap align-items-center mb-2">
+                <img class="rounded-circle me-3" src="/images/pic-1.png" alt="">
+                <div>
+                  <h5>John Deo</h5>
+                </div>
+              </div>
+              <p class=" fs-6 fs-sm-5 text-center text-lg-start">
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat
+                Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio
+                Corporis Nihil!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card shadow-sm p-3">
+              <div class="d-flex flex-wrap align-items-center mb-2">
+                <img class="rounded-circle me-3" src="/images/pic-2.png" alt="">
+                <div>
+                  <h5>John Deo</h5>
+                </div>
+              </div>
+              <p class=" fs-6 fs-sm-5 text-center text-lg-start">
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat
+                Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio
+                Corporis Nihil!
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-item text-center row-cols-12 justify-content-center align-items-center">
+            <div class="card shadow-sm p-3">
+              <div class="d-flex flex-wrap align-items-center mb-2">
+                <img class="rounded-circle me-3" src="/images/pic-3.png" alt="">
+                <div>
+                  <h5>John Deo</h5>
+                </div>
+              </div>
+              <p class=" fs-6 fs-sm-5 text-center text-lg-start">
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat
+                Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio
+                Corporis Nihil!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="card shadow-sm p-3">
+              <div class="d-flex flex-wrap align-items-center mb-2">
+                <img class="rounded-circle me-3" src="/images/pic-4.png" alt="">
+                <div>
+                  <h5>John Deo</h5>
+                </div>
+              </div>
+              <p class=" fs-6 fs-sm-5 text-center text-lg-start">
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat
+                Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio
+                Corporis Nihil!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end review section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start order section -->
+  <section id="order" class="section-py">
+    <div class="container px-lg-5">
+      <span class="fs-5 mb-3 mx-auto d-block text-center">Order Now</span>
+      <h2 class="main-header mb-5 mx-auto text-center">FREE AND FAST</h2>
+
+      <form class="row cols-12 justify-content-center m-lg-5 py-4 shadow-lg">
+        <div class="col-12 row cols-12">
+          <div class="col-12 col-sm-6 px-2 py-1">
+            <label for="name" class="">enter your name</label>
+            <input id="name" type="text" class="form-control rounded-1">
+          </div>
+          <div class="col-12 col-sm-6 px-2 py-1">
+            <label for="#" class="">enter your name</label>
+            <input type="text" class="form-control rounded-1">
+          </div>
+          <div class="col-12 col-sm-6 px-2 py-1">
+            <label for="#" class="">enter your name</label>
+            <input type="text" class="form-control rounded-1">
+          </div>
+          <div class="col-12 col-sm-6 px-2 py-1">
+            <label for="#" class="">enter your name</label>
+            <input type="text" class="form-control rounded-1">
+          </div>
+          <div class="col-12 col-sm-6 px-2 py-1">
+            <label for="#" class="">enter your name</label>
+            <input type="text" class="form-control rounded-1">
+          </div>
+          <div class="col-12 col-sm-6 px-2 py-1">
+            <label for="#" class="">enter your name</label>
+            <input type="text" class="form-control rounded-1">
+          </div>
+        </div>
+        <div class="col-12 row cols-12">
+          <div class="col-12 col-md-6 p-2">
+            <textarea class="w-100 p-3 rounded-1 form-control" name="" id="" rows="6"
+              placeholder="your address"></textarea>
+          </div>
+          <div class="col-12 col-md-6 p-2">
+            <textarea class="w-100 p-3 rounded-1 form-control" name="" id="" rows="6"
+              placeholder="your address"></textarea>
+          </div>
+          <div class="col-12 col-md-6 p-2">
+            <button class="btn btn-style py-2 px-4" type="submit">order now</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- end order section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start footer section -->
+  <footer class="section-py">
+    <div class="container row col-12 mx-auto">
+      <div class="col-12 col-sm-6 col-lg-3 py-2">
+        <h4 class="main-header fw-bold text-md-center ">Locations</h4>
+        <ul class="list-group shadow-lg">
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">india</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">japan</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">russia</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">USA</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">france</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-2 py-2">
+        <h4 class="main-header fw-bold text-md-center ">Quick Links</h4>
+        <ul class="list-group shadow-lg">
+          <li class="list-group-item py-0">
+            <a href="#home" class="nav-link text-md-center">home</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#dishes" class="nav-link text-md-center">dishes</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#about" class="nav-link text-md-center">about</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#menu" class="nav-link text-md-center">menu</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#review" class="nav-link text-md-center">review</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#order" class="nav-link text-md-center">order</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 py-2">
+        <h4 class="main-header fw-bold text-md-center ">Contact Info</h4>
+        <ul class="list-group shadow-lg">
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">+123-456-7890</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">+111-222-3333</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">Amrgamal@gmail.com</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">Amr@gmail.com</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">cairo,india-400104</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 py-2">
+        <h4 class="main-header fw-bold text-md-center ">Follow Us</h4>
+        <ul class="list-group shadow-lg">
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">facebook</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">twitter</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="nav-link text-md-center">instagram</a>
+          </li>
+          <li class="list-group-item py-0">
+            <a href="#" class="nav-link text-md-center">linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <!-- ///////////////////////////////// start /////////////////////////// -->
+  <!-- start load section -->
+  <div class="loader position-fixed fixed-top w-100 h-100 d-flex justify-content-center align-items-center">
+    <img src="./images/loader.gif" alt="sorry something wrong">
+  </div>
+  <!-- end footer section -->
+  <!-- ///////////////////////////////// end /////////////////////////// -->
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

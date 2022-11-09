@@ -1,0 +1,11 @@
+<i class="bi bi-cloud-moon-fill"></i>
+<i class="bi bi-cloud-moon"></i>
+<i class="bi bi-cloud-sun"></i>
+<i class="bi bi-cloud-sun-fill"></i>
+<i class="bi bi-lightbulb"></i>
+<i class="bi bi-lightbulb-fill"></i>
+<i class="bi bi-eye"></i>
+<i class="bi bi-eye-fill"></i>
+<i class="bi bi-star-half"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
